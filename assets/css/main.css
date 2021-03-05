@@ -4038,3 +4038,9 @@ input, select, textarea {
 		  display: block;
 		  padding: 20px;
 	  }
+
+	  .hireme {
+		  display:block;
+		  padding:50px;
+		  text-align:center;
+	  }
