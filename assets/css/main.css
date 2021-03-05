@@ -81,10 +81,10 @@ input, select, textarea {
 	html {
 		box-sizing: border-box;
 	}
-/* this is the boxes doubling up turned off*/
-	/* *, *:before, *:after {
+/* this is the boxes squares doubling up turned off*/
+	*, *:before, *:after {
 		box-sizing: inherit;
-	} */
+	}
 
 	body {
 		background:#ffffff;
@@ -2077,16 +2077,17 @@ input, select, textarea {
 
 			}
 
+			/* heart and stuff icons */
 		.icon.style1 {
-			color: #64719e;
+			color: #ffffff;
 		}
 
 		.icon.style2 {
-			color: #64719e;
+			color: #ffffff;
 		}
 
 		.icon.style3 {
-			color: #76ddff;
+			color: #ffffff;
 		}
 
 /* Image */
@@ -4024,4 +4025,16 @@ input, select, textarea {
 	  .dropdown:hover .dropdown-content {
 		display: block;
 
+	  }
+
+
+	  #aboutcenter {
+		text-align: center;
+
+	  }
+	  
+
+	  .personas {
+		  display: block;
+		  padding: 20px;
 	  }
