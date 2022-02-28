@@ -1,11 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
-/*
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -2132,6 +2128,7 @@ input, select, textarea {
 		}
 
 			.image.fit img {
+				
 				width: 100%;
 			}
 
@@ -2150,7 +2147,7 @@ input, select, textarea {
 		}
 
 	ul {
-		list-style: disc;
+		list-style: inside;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
 	}
@@ -2729,6 +2726,7 @@ input, select, textarea {
 		opacity: 1;
 		transition: .5s ease;
 		backface-visibility: hidden;
+		line-height: 0px;
 	  }
 
 
@@ -4259,5 +4257,18 @@ input, select, textarea {
 }
 
 
-	
+.demodiv {
+	display: inline-block;
+}
 
+.figcaption {
+	text-align: center;
+	font-size: 15px;
+	margin-top: 0px;
+}
+
+
+.youtube {
+	margin: 30px;
+	text-align: center;
+}
